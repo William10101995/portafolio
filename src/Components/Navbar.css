@@ -1,0 +1,37 @@
+.menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  margin-right: 5rem;
+  justify-content: right;
+}
+
+.menu li {
+  padding: 1rem;
+  font-size: 18px;
+  transition: transform 250ms;
+}
+.menu li:hover {
+  transform: translateY(-10px);
+}
+.menu li a {
+  color: #fafbfd;
+}
+
+.icon {
+  margin-left: 5rem;
+}
+
+.icon li {
+  padding: 1rem;
+  font-size: 18px;
+}
+
+.icon li a {
+  color: #fafbfd;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10px;
+}

@@ -1,0 +1,13 @@
+* {
+  font-family: monospace;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  background-color: #18171c;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
