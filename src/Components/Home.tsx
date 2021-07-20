@@ -1,15 +1,24 @@
 import React from "react";
 import { Navbar } from "./Navbar";
-import Particles from "react-tsparticles";
-import {particlesConfig} from "../scripts/particles";
+import { motion } from "framer-motion";
+import { pageTransition, durationTransition } from "../scripts/frameMotion";
+import "./Home.css";
 
+//Component Home
 export const Home = () => {
-  
   return (
-    <div>
+    <div className="contenedor-home">
       <Navbar />
-      <Particles height="100vh" width="100vw" options={particlesConfig} />
-      <h1>Bienvenido al Home</h1>
+      <motion.div
+        className="contenedor-home"
+        initial="in"
+        animate="out"
+        exit="in"
+        transition={durationTransition}
+        variants={pageTransition}
+      >
+        <h1>Bienvenido al Home</h1>
+      </motion.div>
     </div>
   );
 };

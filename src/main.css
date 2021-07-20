@@ -1,10 +1,11 @@
 * {
-  font-family: monospace;
+  font-family: Helvetica;
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
-  background-color: #18171c;
+  overflow: hidden;
 }
+
 ul {
   list-style: none;
 }

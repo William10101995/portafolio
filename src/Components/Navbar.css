@@ -1,37 +1,84 @@
+/* Maquetado */
+.contenedor-nav {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Menu */
 .menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  margin-right: 5rem;
-  justify-content: right;
+  justify-content: center;
+  background: #ab47bc;
 }
 
-.menu li {
+.menu .item {
   padding: 1rem;
   font-size: 18px;
   transition: transform 250ms;
 }
-.menu li:hover {
-  transform: translateY(-10px);
-}
-.menu li a {
+
+.item .link {
   color: #fafbfd;
 }
-
-.icon {
-  margin-left: 5rem;
+.item .active {
+  color: #e1e2e1;
 }
 
-.icon li {
-  padding: 1rem;
-  font-size: 18px;
+.item::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width 0.7s ease, background-color 0.5s ease;
 }
 
-.icon li a {
-  color: #fafbfd;
+.item:hover::after {
+  width: 100%;
+  background-color: #fafbfd;
 }
 
-.contenedor {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 10px;
+/* Icono */
+
+.iconResponsive {
+  display: none;
+}
+
+/* Vista Movil */
+@media (max-width: 768px) {
+  .menu.active {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    text-align: center;
+    left: 0px;
+    padding: 70px;
+    transition: all 0.5s ease;
+    z-index: 1;
+    margin: 0;
+    height: 100vh;
+  }
+  .iconResponsive {
+    cursor: pointer;
+    background: #ab47bc;
+    color: #fafbfd;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    display: block;
+    text-align: right;
+    z-index: 100;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    height: 100vh;
+  }
 }
