@@ -1,13 +1,14 @@
 export const pageTransition = {
-	in: {
-		scaleY: 0		
-	},
-	out: {
-		scaleY: 1	
-	}
+  in: {
+    y: 20,
+    opacity: 0,
+  },
+  out: {
+    y: 0,
+    opacity: 1,
+  },
 };
 
 export const durationTransition = {
-	duration : 0.5
+  duration: 0.5,
 };
-

@@ -1,52 +1,74 @@
-export const myData = { 
-	FirstName: "William Juan Jose",
-	LastName: "Lopez",
-	Slogan: "I am a developer",
-	Image:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/William_Lopez_%28cropped%29.jpg/220px-William_Lopez_%28cropped%29.jpg",
-	Address: "Monteagudo 332",
-	City: "Resistencia",
-	State: "Chaco",
-	Country: "Argentina",
-	CodPostal: "3500",
-	Phone: "+54 9 3624771222",
-	Email: "lopezwilliam177@gmail.com",
-	Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-	SocialMedia: {
-		Facebook: "https://www.facebook.com/williamjuanjose.lopez",
-		Twitter: "https://twitter.com/williamjuanjose",
-		Instagram: "https://www.instagram.com/williamjuanjose.lopez",
-		Linkedin: "https://www.linkedin.com/in/williamjuanjose",
-		GitHub: "https://github.com/williamjuanjose"
-	},
-	Skills: [
-		"JavaScript",
-		"TypeScript",
-		"React",
-		"NodeJS",
-		"HTML",
-		"CSS"
-	],
-	Projects: [
-		{
-			Name: "React-TypeScript",
-			Description: "A boilerplate for ReactJS and TypeScript",
-			Link: "https://github.com/williamjuanjose/React-TypeScript-Starter",
-			Image: "https://github.com/williamjuanjose/React-TypeScript-Starter/blob/master/src/assets/img/react-typescript-starter.png"
-		},
-		{
-			Name: "NodeJS-TypeScript",
-			Description: "A boilerplate for NodeJS and TypeScript",
-			Link: "https://github.com/williamjuanjose/React-TypeScript-Starter-2",
-			Image: "https://github.com/williamjuanjose/React-TypeScript-Starter-2/blob/master/src/assets/img/react-typescript-starter-2.png"
-		},
-		{
-			Name: "NodeJS for Backend",
-			Description: "Backend Project With NodeJS",
-			Link: "https://github.com/williamjuanjose/React-TypeScript-Starter-3",
-			Image: "https://github.com/williamjuanjose/React-TypeScript-Starter-3/blob/master/src/assets/img/react-typescript-starter-3.png"
-		}
-	]
-		
-
-
-}
+import myimage from "../Images/Iam.jpeg";
+import card from "../Images/card.jpg";
+export const myData = {
+  FirstName: "William",
+  LastName: "Lopez",
+  Slogan: "Hello, I'm",
+  Address: "Monteagudo 332",
+  City: "Resistencia",
+  Image: myimage,
+  State: "Chaco",
+  Country: "Argentina",
+  CodPostal: "3500",
+  Phone: "+54 9 362-4771222",
+  Email: "lopezwilliam177@gmail.com",
+  Description:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  SocialMedia: {
+    Facebook: "https://www.facebook.com/profile.php?id=100059503361624",
+    Twitter: "https://twitter.com/WilliamLopezco",
+    Instagram: "https://www.instagram.com/williamlopez3",
+    Linkedin: "https://www.linkedin.com/in/williamjuanjoselopez",
+    GitHub: "https://github.com/William10101995",
+  },
+  Skills: [
+    {
+      name: "JavaScript",
+      progress: `@keyframes JavaScript {
+      0% { width: 0; }
+      100% { width: 90%; }
+    }`,
+    },
+    {
+      name: "TypeScript",
+      progress: `@keyframes TypeScript {
+      0% { width: 0; }
+      100% { width: 30%; }
+    }`,
+    },
+    {
+      name: "React",
+      progress: `@keyframes React {
+      0% { width: 0; }
+      100% { width: 50%; }
+    }`,
+    },
+    {
+      name: "NodeJS",
+      progress: `@keyframes NodeJS {
+      0% { width: 0; }
+      100% { width: 70%; }
+    }`,
+    },
+  ],
+  Projects: [
+    {
+      Name: "Ministerio",
+      Description: "A boilerplate for ReactJS and TypeScript",
+      Link: "https://github.com/William10101995/ministeriodesarrolloproductivo",
+      Image: card,
+    },
+    {
+      Name: "Twitter Bot",
+      Description: "A boilerplate for NodeJS and TypeScript",
+      Link: "https://github.com/William10101995/bottwitter",
+      Image: card,
+    },
+    {
+      Name: "Business REST API",
+      Description: "Backend Project With NodeJS, MongoDB and Express",
+      Link: "https://github.com/William10101995/Business_RestAPI",
+      Image: card,
+    },
+  ],
+};

@@ -3,3 +3,62 @@
   margin: 0;
   height: 100vh;
 }
+.contenedorsnav {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+.contenedorsnav h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: #ab47bc;
+}
+.estilonombre {
+  color: #790e8b;
+  font-size: 44px;
+}
+.contenedorsocial {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.myimages img {
+  border-radius: 500px;
+  width: 400px;
+  height: 400px;
+  margin-top: 21px;
+  box-shadow: -4px -1px 6px -2px rgba(171, 71, 188, 0.65);
+  -webkit-box-shadow: -4px -1px 6px -2px rgba(171, 71, 188, 0.65);
+  -moz-box-shadow: -4px -1px 6px -2px rgba(171, 71, 188, 0.65);
+}
+.myimages {
+  text-align: center;
+}
+.socialmedia {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  padding-top: 20px;
+  font-size: 22px;
+}
+
+.socialmedia a {
+  color: #ab47bc;
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+.twitter:hover {
+  color: #00acee;
+}
+.linkedin:hover {
+  color: #0e76a8;
+}
+
+.git:hover {
+  color: #e2432a;
+}
+.ig:hover {
+  color: #c51d34;
+}
