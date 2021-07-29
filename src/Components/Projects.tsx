@@ -21,7 +21,7 @@ export const Projects = () => {
         <div className="contenedorsinnavprojects">
           {myData.Projects.map((project) => {
             return (
-              <div className="project">
+              <div className="project" key = {project.id} >
                 <img src={project.Image} alt="card projects" />
                 <div className="bodycard">
                   <h1>{project.Name}</h1>

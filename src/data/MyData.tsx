@@ -23,6 +23,7 @@ export const myData = {
   },
   Skills: [
     {
+      id: 1,
       name: "JavaScript",
       progress: `@keyframes JavaScript {
       0% { width: 0; }
@@ -30,6 +31,7 @@ export const myData = {
     }`,
     },
     {
+      id: 2,
       name: "TypeScript",
       progress: `@keyframes TypeScript {
       0% { width: 0; }
@@ -37,6 +39,7 @@ export const myData = {
     }`,
     },
     {
+      id: 3,
       name: "React",
       progress: `@keyframes React {
       0% { width: 0; }
@@ -44,6 +47,7 @@ export const myData = {
     }`,
     },
     {
+      id: 4,
       name: "NodeJS",
       progress: `@keyframes NodeJS {
       0% { width: 0; }
@@ -53,18 +57,21 @@ export const myData = {
   ],
   Projects: [
     {
+      id: 1,
       Name: "Ministerio",
       Description: "A boilerplate for ReactJS and TypeScript",
       Link: "https://github.com/William10101995/ministeriodesarrolloproductivo",
       Image: card,
     },
     {
+      id: 2,
       Name: "Twitter Bot",
       Description: "A boilerplate for NodeJS and TypeScript",
       Link: "https://github.com/William10101995/bottwitter",
       Image: card,
     },
     {
+      id: 3,
       Name: "Business REST API",
       Description: "Backend Project With NodeJS, MongoDB and Express",
       Link: "https://github.com/William10101995/Business_RestAPI",

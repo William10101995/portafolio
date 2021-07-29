@@ -30,7 +30,7 @@ export const About = () => {
               <h2> Skills </h2>
               {myData.Skills.map((skill) => {
                 return (
-                  <div className="skill">
+                  <div className="skill" key={skill.id}>
                     <h3>{skill.name}</h3>
                     <div className="progress">
                       <div

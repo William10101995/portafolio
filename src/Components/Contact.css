@@ -101,6 +101,13 @@
   color: #b6b8c3;
 }
 
+.messagebefore {
+  text-align: center;
+  margin-top: 16%;
+  font-size: 68px;
+  color: #790e8b;
+}
+
 @media (max-width: 1060px) {
   .contenedorcontact {
     grid-template-columns: 1fr;
