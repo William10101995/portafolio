@@ -12,10 +12,10 @@
 }
 .contenedorsinnavcontact > h1 {
   text-align: center;
-  color: #ab47bc;
+  color: #263238;
 }
 .estilome {
-  color: #790e8b;
+  color: #000a12;
 }
 
 .contenedorcontact {
@@ -47,7 +47,7 @@
 
 .formulario form label {
   padding: 0.1rem;
-  color: #790e8b;
+  color: #000a12;
 }
 
 .formulario form button,
@@ -57,13 +57,13 @@
   padding: 0.7rem;
   border: none;
   background: none;
-  border-bottom: 1px solid #ab47bc;
+  border-bottom: 1px solid #263238;
   outline: none;
-  color: #790e8b;
+  color: #000a12;
 }
 
 .formulario form button {
-  background: #790e8b;
+  background: #000a12;
   color: #e1e2e1;
   border: 0;
   padding: 1rem;
@@ -73,14 +73,15 @@
 
 .formulario form button:hover,
 .formulario form button:focus {
-  background: #e1bee7;
-  color: #790e8b;
+  background: #4f5b62;
+  color: #000a12;
   transition: background-color 0.5s ease-out;
   outline: none;
 }
 
 .info {
-  background: #e1bee7;
+  background: #4f5b62;
+  color: #e1e2e1;
 }
 
 .info h3,
@@ -105,7 +106,7 @@
   text-align: center;
   margin-top: 16%;
   font-size: 68px;
-  color: #790e8b;
+  color: #000a12;
 }
 
 @media (max-width: 1060px) {

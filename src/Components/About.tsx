@@ -23,11 +23,11 @@ export const About = () => {
           </div>
           <div className="columnaizquierda">
             <div className="filaarriba">
-              <h1> About me </h1>
+              <h1> Sobre Mi </h1>
               <p> {myData.Description} </p>
             </div>
             <div className="filaabajo">
-              <h2> Skills </h2>
+              <h2> Habilidades </h2>
               {myData.Skills.map((skill) => {
                 return (
                   <div className="skill" key={skill.id}>

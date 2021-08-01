@@ -1,9 +1,11 @@
 import myimage from "../Images/Iam.jpeg";
-import card from "../Images/card.jpg";
+import CardMinisterio from "../Images/CardMinisterio.png";
+import CardBot from "../Images/CardBot.png";
+import CardApi from "../Images/CardApi.png";
 export const myData = {
   FirstName: "William",
   LastName: "Lopez",
-  Slogan: "Hello, I'm",
+  Slogan: "Hola, mi nombre es",
   Address: "Monteagudo 332",
   City: "Resistencia",
   Image: myimage,
@@ -13,7 +15,7 @@ export const myData = {
   Phone: "+54 9 362-4771222",
   Email: "lopezwilliam177@gmail.com",
   Description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Estudiante de Ingeniería en Sistemas de Información. Proactivo e innovador, siempre conociendo nuevas tecnologías. Apasionado de las metodologías ágiles y bases de datos. Grandes habilidades de comunicación y trabajo en equipo. Mi objetivo es crecer profesionalmente en IT. Me gusta pasar tiempo con amigos o hacer deporte. Todo es mejor con un mate.",
   SocialMedia: {
     Facebook: "https://www.facebook.com/profile.php?id=100059503361624",
     Twitter: "https://twitter.com/WilliamLopezco",
@@ -27,7 +29,7 @@ export const myData = {
       name: "JavaScript",
       progress: `@keyframes JavaScript {
       0% { width: 0; }
-      100% { width: 90%; }
+      100% { width: 70%; }
     }`,
     },
     {
@@ -35,7 +37,7 @@ export const myData = {
       name: "TypeScript",
       progress: `@keyframes TypeScript {
       0% { width: 0; }
-      100% { width: 30%; }
+      100% { width: 50%; }
     }`,
     },
     {
@@ -43,7 +45,7 @@ export const myData = {
       name: "React",
       progress: `@keyframes React {
       0% { width: 0; }
-      100% { width: 50%; }
+      100% { width: 30%; }
     }`,
     },
     {
@@ -51,31 +53,31 @@ export const myData = {
       name: "NodeJS",
       progress: `@keyframes NodeJS {
       0% { width: 0; }
-      100% { width: 70%; }
+      100% { width: 60%; }
     }`,
     },
   ],
   Projects: [
     {
       id: 1,
-      Name: "Ministerio",
-      Description: "A boilerplate for ReactJS and TypeScript",
+      Name: " Ministerio REST API",
+      Description: "Proyecto de Backend completo. JWT, ABM, Base de Datos No Relacional y mas.",
       Link: "https://github.com/William10101995/ministeriodesarrolloproductivo",
-      Image: card,
+      Image: CardMinisterio,
     },
     {
       id: 2,
       Name: "Twitter Bot",
-      Description: "A boilerplate for NodeJS and TypeScript",
+      Description: "Bot de twitter realizado con TypeScript, tuitea cada 12hs y responde menciones.",
       Link: "https://github.com/William10101995/bottwitter",
-      Image: card,
+      Image: CardBot,
     },
     {
       id: 3,
       Name: "Business REST API",
-      Description: "Backend Project With NodeJS, MongoDB and Express",
+      Description: "Proyecto Backend simple utilizando NodeJS Express y MongoDB.",
       Link: "https://github.com/William10101995/Business_RestAPI",
-      Image: card,
+      Image: CardApi,
     },
   ],
 };

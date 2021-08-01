@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: repeat(4, auto);
   justify-content: center;
-  background: #ab47bc;
+  background: #000a12;
 }
 
 .menu .item {
@@ -60,7 +60,7 @@
   }
   .iconResponsive {
     cursor: pointer;
-    background: #ab47bc;
+    background: #000a12;
     color: #fafbfd;
     padding-top: 1rem;
     padding-right: 1rem;

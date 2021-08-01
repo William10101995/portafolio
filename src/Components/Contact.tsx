@@ -10,7 +10,6 @@ import {
   RiMapPinUserFill,
   RiMailSendFill,
 } from "react-icons/ri";
-import { render } from "react-dom";
 
 // Contact component
 export const Contact = () => {
@@ -60,7 +59,7 @@ export const Contact = () => {
           }
         );
     } else {
-      alert("Please fill all fields");
+      alert("Por favor complete todos los campos");
     }
   };
 
@@ -71,7 +70,7 @@ export const Contact = () => {
         <div className="formulario">
           <form action="" onSubmit={handleClick}>
             <p>
-              <label htmlFor="fullname">FullName</label>
+              <label htmlFor="fullname">Apellido y Nombre</label>
               <input
                 type="text"
                 onChange={handleInputChange}
@@ -91,7 +90,7 @@ export const Contact = () => {
               />
             </p>
             <p>
-              <label htmlFor="phone">Phone</label>
+              <label htmlFor="phone">Teléfono</label>
               <input
                 type="tel"
                 onChange={handleInputChange}
@@ -101,7 +100,7 @@ export const Contact = () => {
               />
             </p>
             <p>
-              <label htmlFor="affair">Affair</label>
+              <label htmlFor="affair">Asunto</label>
               <input
                 type="text"
                 onChange={handleInputChange}
@@ -111,7 +110,7 @@ export const Contact = () => {
               />
             </p>
             <p className="block">
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">Mensaje</label>
               <textarea
                 name="message"
                 onChange={handleInputChange}
@@ -121,13 +120,13 @@ export const Contact = () => {
             </p>
             <p className="block">
               <button type="submit" className="btn-contact">
-                Send
+                Enviar
               </button>
             </p>
           </form>
         </div>
         <div className="info">
-          <h3>More Info</h3>
+          <h3>Más Información</h3>
           <ul>
             <li>
               <RiWhatsappFill className="icon-whatsapp" />
@@ -142,8 +141,8 @@ export const Contact = () => {
             </li>
           </ul>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore,
-            neque.
+            Ponte en contacto conmigo y vamos a realizar eso que siempre
+            soñaste!.
           </p>
         </div>
       </div>
@@ -161,7 +160,7 @@ export const Contact = () => {
         transition={durationTransition}
         variants={pageTransition}
       >
-        <h5 className="messagebefore">Okay, let's go!</h5>
+        <h5 className="messagebefore">Muy bien, vamos!</h5>
       </motion.div>
     );
   };
