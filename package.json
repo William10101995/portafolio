@@ -1,9 +1,9 @@
 {
   "name": "mypersonalportfolio",
   "version": "0.0.0",
-  "homepage": "http://William10101995.github.io/portafolio/",
+  "homepage": "https://williamlopez.co",
   "scripts": {
-    "predeploy": "npm run build && echo 'williamlopez.co' > ./dist/CNAME",
+    "predeploy": "npm run build && echo williamlopez.co > ./dist/CNAME",
     "deploy": "gh-pages -d dist",  
     "dev": "vite",
     "build": "tsc && vite build",
