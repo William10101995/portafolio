@@ -1,7 +1,10 @@
 {
   "name": "mypersonalportfolio",
   "version": "0.0.0",
+  "homepage": "http://William10101995.github.io/portafolio",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",  
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview"
