@@ -10,7 +10,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/portafolio">
       <AnimatePresence>
         <Switch>
           <Route exact path="/" component={Home} />
