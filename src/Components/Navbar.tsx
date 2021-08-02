@@ -24,7 +24,7 @@ export const Navbar = () => {
             className="link"
             onClick={handleClick}
           >
-            Home
+            Inicio
           </NavLink>
         </li>
         <li className="item">
@@ -34,7 +34,7 @@ export const Navbar = () => {
             className="link"
             onClick={handleClick}
           >
-            About
+            Sobre Mi
           </NavLink>
         </li>
         <li className="item">
@@ -44,7 +44,7 @@ export const Navbar = () => {
             className="link"
             onClick={handleClick}
           >
-            Projects
+            Proyectos
           </NavLink>
         </li>
         <li className="item">
@@ -54,7 +54,7 @@ export const Navbar = () => {
             className="link"
             onClick={handleClick}
           >
-            Contact
+            Contacto
           </NavLink>
         </li>
       </ul>

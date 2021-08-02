@@ -105,7 +105,7 @@ export const Contact = () => {
                 type="text"
                 onChange={handleInputChange}
                 name="affair"
-                placeholder="Backend Work"
+                placeholder="Trabajo de Backend"
                 id="affair"
               />
             </p>
@@ -114,7 +114,7 @@ export const Contact = () => {
               <textarea
                 name="message"
                 onChange={handleInputChange}
-                placeholder="I want a API REST"
+                placeholder="Hola, quiero una API REST"
                 id="message"
               ></textarea>
             </p>
@@ -141,8 +141,7 @@ export const Contact = () => {
             </li>
           </ul>
           <p>
-            Ponte en contacto conmigo y vamos a realizar eso que siempre
-            soñaste!.
+            Seamos realistas, hagamos lo imposible!
           </p>
         </div>
       </div>

@@ -41,11 +41,14 @@
   font-size: 22px;
   color: #000a12;
   text-align: left;
+  padding-top: 10px ;
+  padding-bottom: 10px;
 }
 .bodycard > p {
   font-size: 16px;
   color: #263238;
   text-align: justify;
+  padding-bottom: 10px;
 }
 
 .bodycard button {
@@ -58,6 +61,7 @@
   font-weight: 600;
   cursor: pointer;
   margin-top: 10px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 1100px) {
