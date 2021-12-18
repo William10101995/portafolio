@@ -16,7 +16,7 @@ export const myData = {
   Phone: "+54 9 362-4771222",
   Email: "lopezwilliam177@gmail.com",
   Description:
-    "Estudiante de Ingeniería en Sistemas de Información. Proactivo e innovador, siempre conociendo nuevas tecnologías. Apasionado de las metodologías ágiles y bases de datos. Grandes habilidades de comunicación y trabajo en equipo. Mi objetivo es crecer profesionalmente en IT. Me gusta pasar tiempo con amigos o hacer deporte. Todo es mejor con un mate.",
+    "Estudiante de Ingeniería en Sistemas de Información. Proactivo e innovador, siempre conociendo nuevas tecnologías. Apasionado de las metodologías ágiles y bases de datos. Grandes habilidades de comunicación y trabajo en equipo. Mi objetivo es crecer profesionalmente en IT. Me gusta pasar tiempo con amigos o hacer deporte.",
   SocialMedia: {
     Facebook: "https://www.facebook.com/profile.php?id=100059503361624",
     Twitter: "https://twitter.com/WilliamLopezco",
