@@ -2,6 +2,7 @@ import myimage from "../Images/Iam.jpeg";
 import CardMinisterio from "../Images/CardMinisterio.png";
 import CardBot from "../Images/CardBot.png";
 import CardApi from "../Images/CardApi.png";
+import CardBotSis from "../Images/CardBotSis.png";
 export const myData = {
   FirstName: "William",
   LastName: "Lopez",
@@ -61,23 +62,34 @@ export const myData = {
     {
       id: 1,
       Name: " Ministerio REST API",
-      Description: "Proyecto de Backend completo. JWT, ABM, Base de Datos No Relacional y mas.",
+      Description:
+        "Proyecto de Backend completo. JWT, ABM, Base de Datos No Relacional y mas.",
       Link: "https://github.com/William10101995/ministeriodesarrolloproductivo",
       Image: CardMinisterio,
     },
     {
       id: 2,
       Name: "Twitter Bot",
-      Description: "Bot de twitter realizado con TypeScript, tuitea cada 12hs y responde menciones.",
+      Description:
+        "Bot de twitter realizado con TypeScript, tuitea cada 12hs y responde menciones.",
       Link: "https://github.com/William10101995/bottwitter",
       Image: CardBot,
     },
     {
       id: 3,
       Name: "Business REST API",
-      Description: "Proyecto Backend simple utilizando NodeJS Express y MongoDB.",
+      Description:
+        "Proyecto Backend simple utilizando NodeJS Express y MongoDB.",
       Link: "https://github.com/William10101995/Business_RestAPI",
       Image: CardApi,
+    },
+    {
+      id: 4,
+      Name: "Sismografo Politico",
+      Description:
+        "Proyecto FullStack utilizando React, NodeJs, Twitter API, OpenAI API y Socket.io.",
+      Link: "https://github.com/William10101995/twitter_data",
+      Image: CardBotSis,
     },
   ],
 };

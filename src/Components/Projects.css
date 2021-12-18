@@ -6,7 +6,7 @@
 
 .contenedorsinnavprojects {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(4, auto);
   column-gap: 50px;
   text-align: center;
   justify-content: center;
@@ -41,7 +41,7 @@
   font-size: 22px;
   color: #000a12;
   text-align: left;
-  padding-top: 10px ;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 .bodycard > p {

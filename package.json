@@ -4,7 +4,7 @@
   "homepage": "https://williamlopez.co",
   "scripts": {
     "predeploy": "npm run build && echo williamlopez.co > ./dist/CNAME",
-    "deploy": "gh-pages -d dist",  
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview"
