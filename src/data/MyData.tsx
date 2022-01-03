@@ -1,4 +1,4 @@
-import myimage from "../Images/Iam.jpeg";
+import myimage from "../Images/Iam.jpg";
 import CardMinisterio from "../Images/CardMinisterio.png";
 import CardBot from "../Images/CardBot.png";
 import CardApi from "../Images/CardApi.png";
@@ -7,6 +7,7 @@ export const myData = {
   FirstName: "William",
   LastName: "Lopez",
   Slogan: "Hola, mi nombre es",
+  Especializacion: "Backend Developer",
   Address: "Monteagudo 332",
   City: "Resistencia",
   Image: myimage,

@@ -35,30 +35,51 @@ export const Home = () => {
               {personalData.myData.FirstName}
             </span>
           </h1>
+
           <div className="contenedorsocial">
             <ul className="socialmedia">
               <li className="socialitem">
-                <a href={personalData.myData.SocialMedia.Facebook} className="facebook" target = "_blank">
+                <a
+                  href={personalData.myData.SocialMedia.Facebook}
+                  className="facebook"
+                  target="_blank"
+                >
                   <FaFacebook />
                 </a>
               </li>
               <li className="socialitem">
-                <a href={personalData.myData.SocialMedia.Twitter} className="twitter" target = "_blank">
+                <a
+                  href={personalData.myData.SocialMedia.Twitter}
+                  className="twitter"
+                  target="_blank"
+                >
                   <FaTwitter />
                 </a>
               </li>
               <li className="socialitem">
-                <a href={personalData.myData.SocialMedia.Instagram} className="ig" target = "_blank">
+                <a
+                  href={personalData.myData.SocialMedia.Instagram}
+                  className="ig"
+                  target="_blank"
+                >
                   <FaInstagram />
                 </a>
               </li>
               <li className="socialitem">
-                <a href={personalData.myData.SocialMedia.Linkedin} className="linkedin" target = "_blank">
+                <a
+                  href={personalData.myData.SocialMedia.Linkedin}
+                  className="linkedin"
+                  target="_blank"
+                >
                   <FaLinkedin />
                 </a>
               </li>
               <li className="socialitem">
-                <a href={personalData.myData.SocialMedia.GitHub} className="git" target = "_blank">
+                <a
+                  href={personalData.myData.SocialMedia.GitHub}
+                  className="git"
+                  target="_blank"
+                >
                   <FaGithub />
                 </a>
               </li>
