@@ -17,7 +17,7 @@ export const myData = {
   Phone: "+54 9 362-4771222",
   Email: "lopezwilliam177@gmail.com",
   Description:
-    "Estudiante de Ingeniería en Sistemas de Información. Proactivo e innovador, siempre conociendo nuevas tecnologías. Apasionado de las metodologías ágiles y bases de datos. Grandes habilidades de comunicación y trabajo en equipo. Mi objetivo es crecer profesionalmente en IT. Me gusta pasar tiempo con amigos o hacer deporte.",
+    "Estudiante de Ingeniería en Sistemas de Información. Proactivo e innovador, siempre conociendo nuevas tecnologías. Apasionado de las metodologías ágiles. Grandes habilidades de comunicación y trabajo en equipo. Mi objetivo es crecer profesionalmente en IT. Me gusta pasar tiempo con amigos y hacer deporte.",
   SocialMedia: {
     Facebook: "https://www.facebook.com/profile.php?id=100059503361624",
     Twitter: "https://twitter.com/WilliamLopezco",
@@ -31,7 +31,7 @@ export const myData = {
       name: "JavaScript",
       progress: `@keyframes JavaScript {
       0% { width: 0; }
-      100% { width: 70%; }
+      100% { width: 50%; }
     }`,
     },
     {
@@ -39,7 +39,7 @@ export const myData = {
       name: "TypeScript",
       progress: `@keyframes TypeScript {
       0% { width: 0; }
-      100% { width: 50%; }
+      100% { width: 70%; }
     }`,
     },
     {
@@ -64,7 +64,7 @@ export const myData = {
       id: 1,
       Name: " Ministerio REST API",
       Description:
-        "Proyecto de Backend completo. JWT, ABM, Base de Datos No Relacional y mas.",
+        "Proyecto de Backend completo. JWT, ABM, Base de Datos No Relacional.",
       Link: "https://github.com/William10101995/ministeriodesarrolloproductivo",
       Image: CardMinisterio,
     },
