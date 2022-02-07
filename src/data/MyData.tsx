@@ -29,6 +29,7 @@ export const myData = {
     {
       id: 1,
       name: "JavaScript",
+      color: "JS",
       progress: `@keyframes JavaScript {
       0% { width: 0; }
       100% { width: 50%; }
@@ -37,6 +38,7 @@ export const myData = {
     {
       id: 2,
       name: "TypeScript",
+      color: "TS",
       progress: `@keyframes TypeScript {
       0% { width: 0; }
       100% { width: 70%; }
@@ -45,6 +47,7 @@ export const myData = {
     {
       id: 3,
       name: "React",
+      color: "RS",
       progress: `@keyframes React {
       0% { width: 0; }
       100% { width: 30%; }
@@ -53,6 +56,7 @@ export const myData = {
     {
       id: 4,
       name: "NodeJS",
+      color: "NS",
       progress: `@keyframes NodeJS {
       0% { width: 0; }
       100% { width: 60%; }

@@ -38,7 +38,7 @@ export const About = () => {
                     <h3>{skill.name}</h3>
                     <div className="progress">
                       <div
-                        className="progress-value"
+                        className={skill.color}
                         style={{
                           animation: `${skill.name} 3s normal forwards`,
                         }}
