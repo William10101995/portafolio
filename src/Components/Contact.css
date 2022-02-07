@@ -122,7 +122,7 @@
     text-align: center;
     margin: 0 0 1rem 0;
   }
-  .contenedor-contact * {
+  .contenedor-contact {
     overflow-y: visible;
   }
   .contenedorsinnavcontact {
