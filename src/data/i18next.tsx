@@ -18,7 +18,7 @@ const resources = {
       contactate: "Contact Me",
       init: "Home",
       proyec: "Projects",
-      about: "About me",
+      about: "About",
       contact: "Contact",
       hab: "Skills",
       sloganI: "Let's be realistic, let's do the impossible!",
