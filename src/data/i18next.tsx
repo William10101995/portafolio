@@ -103,7 +103,7 @@ const resources = {
       tel: "Telefono",
       email: "Email",
       asunto: "Asunto",
-      mensaje: "Menasje",
+      mensaje: "Mensaje",
       enviar: "Enviar",
       info: "Más Información",
       contactate: "Contáctame",
