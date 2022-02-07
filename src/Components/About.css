@@ -88,6 +88,9 @@
   .contenedor-about {
     overflow-y: scroll;
   }
+  .contenedor-about * {
+    overflow-y: visible;
+  }
   .contenedorsinnav {
     display: grid;
     grid-template-columns: auto;

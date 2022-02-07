@@ -97,3 +97,9 @@ button {
     -moz-box-shadow: -4px -1px 6px -2px #705117;
   }
 }
+
+@media (max-width: 1200px) {
+  .contenedor-home {
+    overflow-y: visible;
+  }
+}
