@@ -20,7 +20,6 @@ import { useTranslation } from "react-i18next";
 //Component Home
 export const Home = () => {
   const { t, i18n } = useTranslation();
-  console.log(t("app_name"));
   return (
     <div className="contenedor-home">
       <Navbar />
