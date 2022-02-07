@@ -3,9 +3,11 @@ import { NavLink } from "react-router-dom";
 import { GiCancel } from "react-icons/gi";
 import { MdClearAll } from "react-icons/md";
 import "./Navbar.css";
-
+import "../data/i18next";
+import { useTranslation } from "react-i18next";
 // Navbar component
 export const Navbar = () => {
+  const { t } = useTranslation();
   const [isOpen, setisOpen] = useState(false);
   function handleClick() {
     setisOpen(!isOpen);
@@ -24,7 +26,7 @@ export const Navbar = () => {
             className="link"
             onClick={handleClick}
           >
-            Inicio
+            {t("init")}
           </NavLink>
         </li>
         <li className="item">
@@ -34,7 +36,7 @@ export const Navbar = () => {
             className="link"
             onClick={handleClick}
           >
-            Sobre Mi
+            {t("about")}
           </NavLink>
         </li>
         <li className="item">
@@ -44,7 +46,7 @@ export const Navbar = () => {
             className="link"
             onClick={handleClick}
           >
-            Proyectos
+            {t("proyec")}
           </NavLink>
         </li>
         <li className="item">
@@ -54,7 +56,7 @@ export const Navbar = () => {
             className="link"
             onClick={handleClick}
           >
-            Contacto
+            {t("contact")}
           </NavLink>
         </li>
       </ul>

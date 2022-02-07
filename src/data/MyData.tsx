@@ -67,6 +67,8 @@ export const myData = {
         "Proyecto de Backend completo. JWT, ABM, Base de Datos No Relacional.",
       Link: "https://github.com/William10101995/ministeriodesarrolloproductivo",
       Image: CardMinisterio,
+      Ntrad: "N1",
+      Dtrad: "D1",
     },
     {
       id: 2,
@@ -75,6 +77,8 @@ export const myData = {
         "Bot de twitter realizado con TypeScript, tuitea cada 12hs y responde menciones.",
       Link: "https://github.com/William10101995/bottwitter",
       Image: CardBot,
+      Ntrad: "N2",
+      Dtrad: "D2",
     },
     {
       id: 3,
@@ -83,6 +87,8 @@ export const myData = {
         "Proyecto Backend simple utilizando NodeJS Express y MongoDB.",
       Link: "https://github.com/William10101995/Business_RestAPI",
       Image: CardApi,
+      Ntrad: "N3",
+      Dtrad: "D3",
     },
     {
       id: 4,
@@ -91,6 +97,8 @@ export const myData = {
         "Proyecto FullStack utilizando React, NodeJs, Twitter API, OpenAI API y Socket.io.",
       Link: "https://github.com/William10101995/twitter_data",
       Image: CardBotSis,
+      Ntrad: "N4",
+      Dtrad: "D4",
     },
   ],
 };

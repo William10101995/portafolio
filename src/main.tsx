@@ -7,6 +7,7 @@ import { Home } from "./Components/Home";
 import { Projects } from "./Components/Projects";
 import "./main.css";
 import { AnimatePresence, motion } from "framer-motion";
+import "./data/i18next";
 
 ReactDOM.render(
   <React.StrictMode>

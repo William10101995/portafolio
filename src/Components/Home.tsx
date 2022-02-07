@@ -11,9 +11,16 @@ import {
 import { pageTransition, durationTransition } from "../scripts/frameMotion";
 import "./Home.css";
 import * as personalData from "../data/MyData";
+import FlagEs from "../Images/es.png";
+import FlagEn from "../Images/en.png";
+
+import "../data/i18next";
+import { useTranslation } from "react-i18next";
 
 //Component Home
 export const Home = () => {
+  const { t, i18n } = useTranslation();
+  console.log(t("app_name"));
   return (
     <div className="contenedor-home">
       <Navbar />
@@ -27,13 +34,11 @@ export const Home = () => {
       >
         <div className="contenedorsnav">
           <div className="myimages">
-            <img src={personalData.myData.Image} alt="my personal image" />
+            <img src={t("Image")} alt="my personal image" />
           </div>
           <h1>
-            {personalData.myData.Slogan}{" "}
-            <span className="estilonombre">
-              {personalData.myData.FirstName}
-            </span>
+            {t("Slogan")}
+            <span className="estilonombre">{t("FirstName")}</span>
           </h1>
 
           <div className="contenedorsocial">
@@ -82,6 +87,26 @@ export const Home = () => {
                 >
                   <FaGithub />
                 </a>
+              </li>
+            </ul>
+          </div>
+          <div className="lenguage">
+            <ul className="leng">
+              <li className="lengitem">
+                <button
+                  onClick={() => i18n.changeLanguage("en")}
+                  disabled={i18n.language === "en"}
+                >
+                  <img src={FlagEn} alt="flag english" />
+                </button>
+              </li>
+              <li className="lengitem">
+                <button
+                  onClick={() => i18n.changeLanguage("ar")}
+                  disabled={i18n.language === "ar"}
+                >
+                  <img src={FlagEs} alt="flag es" />
+                </button>
               </li>
             </ul>
           </div>

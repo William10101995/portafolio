@@ -11,8 +11,12 @@ import {
   RiMailSendFill,
 } from "react-icons/ri";
 
+import "../data/i18next";
+import { useTranslation } from "react-i18next";
+
 // Contact component
 export const Contact = () => {
+  const { t } = useTranslation();
   // Initialize state data
   const [datos, setDatos] = useState({
     fullname: "",
@@ -70,7 +74,7 @@ export const Contact = () => {
         <div className="formulario">
           <form action="" onSubmit={handleClick}>
             <p>
-              <label htmlFor="fullname">Apellido y Nombre</label>
+              <label htmlFor="fullname">{t("AyN")}</label>
               <input
                 type="text"
                 onChange={handleInputChange}
@@ -80,7 +84,7 @@ export const Contact = () => {
               />
             </p>
             <p>
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">{t("email")}</label>
               <input
                 type="email"
                 onChange={handleInputChange}
@@ -90,7 +94,7 @@ export const Contact = () => {
               />
             </p>
             <p>
-              <label htmlFor="phone">Teléfono</label>
+              <label htmlFor="phone">{t("tel")}</label>
               <input
                 type="tel"
                 onChange={handleInputChange}
@@ -100,33 +104,33 @@ export const Contact = () => {
               />
             </p>
             <p>
-              <label htmlFor="affair">Asunto</label>
+              <label htmlFor="affair">{t("asunto")}</label>
               <input
                 type="text"
                 onChange={handleInputChange}
                 name="affair"
-                placeholder="Trabajo de Backend"
+                placeholder={t("DS")}
                 id="affair"
               />
             </p>
             <p className="block">
-              <label htmlFor="message">Mensaje</label>
+              <label htmlFor="message">{t("mensaje")}</label>
               <textarea
                 name="message"
                 onChange={handleInputChange}
-                placeholder="Hola, quiero una API REST"
+                placeholder={t("DM")}
                 id="message"
               ></textarea>
             </p>
             <p className="block">
               <button type="submit" className="btn-contact">
-                Enviar
+                {t("enviar")}
               </button>
             </p>
           </form>
         </div>
         <div className="info">
-          <h3>Más Información</h3>
+          <h3>{t("info")}</h3>
           <ul>
             <li>
               <RiWhatsappFill className="icon-whatsapp" />
@@ -140,9 +144,7 @@ export const Contact = () => {
               <RiMailSendFill className="icon-mail-send" /> {myData.Email}
             </li>
           </ul>
-          <p>
-            Seamos realistas, hagamos lo imposible!
-          </p>
+          <p>{t("sloganI")}</p>
         </div>
       </div>
     );
@@ -159,7 +161,7 @@ export const Contact = () => {
         transition={durationTransition}
         variants={pageTransition}
       >
-        <h5 className="messagebefore">Muy bien, vamos!</h5>
+        <h5 className="messagebefore">{t("ok")}</h5>
       </motion.div>
     );
   };
@@ -177,9 +179,7 @@ export const Contact = () => {
         variants={pageTransition}
       >
         <div className="contenedorsinnavcontact">
-          <h1>
-            Contact <span className="estilome">Me</span>
-          </h1>
+          <h1>{t("contactate")}</h1>
           {send ? <MessageBefore /> : Contacto()}
         </div>
       </motion.div>

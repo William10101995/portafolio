@@ -4,8 +4,12 @@ import { motion } from "framer-motion";
 import { pageTransition, durationTransition } from "../scripts/frameMotion";
 import { myData } from "../data/MyData";
 import "./About.css";
+import "../data/i18next";
+import { useTranslation } from "react-i18next";
 //Components
 export const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="contenedor-about">
       <Navbar />
@@ -19,15 +23,15 @@ export const About = () => {
       >
         <div className="contenedorsinnav">
           <div className="columnaderecha">
-            <img src={myData.Image} alt="imgage william lopez" />
+            <img src={t("Image")} alt="imgage william lopez" />
           </div>
           <div className="columnaizquierda">
             <div className="filaarriba">
-              <h1> Sobre Mi </h1>
-              <p> {myData.Description} </p>
+              <h1> {t("about")} </h1>
+              <p> {t("Description")} </p>
             </div>
             <div className="filaabajo">
-              <h2> Habilidades </h2>
+              <h2> {t("hab")} </h2>
               {myData.Skills.map((skill) => {
                 return (
                   <div className="skill" key={skill.id}>

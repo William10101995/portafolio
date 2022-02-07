@@ -62,3 +62,26 @@
 .ig:hover {
   color: #c51d34;
 }
+
+.leng {
+  display: grid;
+  grid-template-columns: repeat(2, 50px);
+  padding-top: 8px;
+}
+
+.lenguage {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.lengitem img {
+  width: 30px;
+  height: 20px;
+}
+
+button {
+  background: #e1e2e1;
+  border: none;
+}
