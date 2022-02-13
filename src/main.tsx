@@ -13,6 +13,7 @@ import { Home } from "./Components/Home";
 import { Projects } from "./Components/Projects";
 import "./main.css";
 import { AnimatePresence, motion } from "framer-motion";
+//Import traducciones
 import "./data/i18next";
 
 ReactDOM.render(
