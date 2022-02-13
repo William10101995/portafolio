@@ -1,6 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, useLocation } from "react-router-dom";
+import {
+  BrowserRouter,
+  HashRouter,
+  Route,
+  Switch,
+  useLocation,
+} from "react-router-dom";
 import { About } from "./Components/About";
 import { Contact } from "./Components/Contact";
 import { Home } from "./Components/Home";
@@ -11,7 +17,7 @@ import "./data/i18next";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/">
+    <HashRouter basename="/">
       <AnimatePresence>
         <Switch>
           <Route exact path="/" component={Home} />
@@ -20,7 +26,7 @@ ReactDOM.render(
           <Route path="/contact" component={Contact} />
         </Switch>
       </AnimatePresence>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
