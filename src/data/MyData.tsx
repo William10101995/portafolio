@@ -3,6 +3,8 @@ import CardMinisterio from "../Images/CardMinisterio.png";
 import CardBot from "../Images/CardBot.png";
 import CardApi from "../Images/CardApi.png";
 import CardBotSis from "../Images/CardBotSis.png";
+import CardBus from "../Images/CardBus.png";
+import CardCal from "../Images/CardCalendar.png";
 export const myData = {
   FirstName: "William",
   LastName: "Lopez",
@@ -104,5 +106,25 @@ export const myData = {
       Ntrad: "N4",
       Dtrad: "D4",
     },
+    {
+      id: 5,
+      Name: "Stop Bus",
+      Description:
+        "Proyecto FullStack utilizando React, NodeJs, Twitter API, OpenAI API y Socket.io.",
+      Link: "https://github.com/William10101995/paradas_chaco_corrientes",
+      Image: CardBus,
+      Ntrad: "N5",
+      Dtrad: "D5",
+    },
+    {
+      id: 6,
+      Name: "Sismografo Politico",
+      Description:
+        "Proyecto FullStack utilizando React, NodeJs, Twitter API, OpenAI API y Socket.io.",
+      Link: "https://github.com/William10101995/calendarioAcademico",
+      Image: CardCal,
+      Ntrad: "N6",
+      Dtrad: "D6",
+    }
   ],
 };

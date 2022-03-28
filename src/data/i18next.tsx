@@ -91,6 +91,12 @@ const resources = {
       N4: "Political Seismograph",
       D4: "FullStack project using React, NodeJs, Twitter API, OpenAI API and Socket.io.",
 
+      N5: "Stop Bus",
+      D5: "Project made using React and Leaflet to see bus stops on a map.",
+
+      N6: "Academic calendar",
+      D6: "Project made using React. An interactive academic calendar of the university.",
+
       ViewRepo: "View Repository",
     },
   },
@@ -179,6 +185,11 @@ const resources = {
       D3: "Proyecto Backend simple utilizando NodeJS Express y MongoDB.",
       N4: "Sismografo Politico",
       D4: "Proyecto FullStack utilizando React, NodeJs, Twitter API, OpenAI API y Socket.io.",
+      N5: "Stop Bus",
+      D5: "Proyecto realizado utilizando React y Leaflet para ver paradas de colectivos en un mapa.",
+
+      N6: "Calendario",
+      D6: "Proyecto realizado utilizando React. Un calendario academico interactivo de la universidad.",
     },
   },
 };
