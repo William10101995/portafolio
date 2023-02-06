@@ -5,6 +5,7 @@ import CardApi from "../Images/CardApi.png";
 import CardBotSis from "../Images/CardBotSis.png";
 import CardBus from "../Images/CardBus.png";
 import CardCal from "../Images/CardCalendar.png";
+import CardMLP from "../Images/CardMLP.png";
 export const myData = {
   FirstName: "William",
   LastName: "Lopez",
@@ -63,6 +64,105 @@ export const myData = {
       0% { width: 0; }
       100% { width: 60%; }
     }`,
+    },
+  ],
+  HardSkills: [
+    {
+      id: 1,
+      name: "JavaScrip",
+      Htrad: "H1",
+    },
+    {
+      id: 2,
+      name: "TypeScript",
+      Htrad: "H2",
+    },
+    {
+      id: 3,
+      name: "Python",
+      Htrad: "H3",
+    },
+    {
+      id: 4,
+      name: "MongoDB",
+      Htrad: "H4",
+    },
+    {
+      id: 5,
+      name: "MySQL",
+      Htrad: "H5",
+    },
+    {
+      id: 6,
+      name: "React",
+      Htrad: "H6",
+    },
+    {
+      id: 7,
+      name: "NodeJS",
+      Htrad: "H7",
+    },
+    {
+      id: 8,
+      name: "Kubernetes",
+      Htrad: "H8",
+    },
+    {
+      id: 9,
+      name: "Docker",
+      Htrad: "H9",
+    },
+    {
+      id: 10,
+      name: "Git & GitHub",
+      Htrad: "H10",
+    },
+    {
+      id: 11,
+      name: "Scrum",
+      Htrad: "H11",
+    },
+  ],
+  SoftSkills: [
+    {
+      id: 1,
+      name: "Liderazgo",
+      Strad: "S1",
+    },
+    {
+      id: 2,
+      name: "Trabajo en equipo",
+      Strad: "S2",
+    },
+    {
+      id: 3,
+      name: "Comunicación",
+      Strad: "S3",
+    },
+    {
+      id: 4,
+      name: "Resolución de problemas",
+      Strad: "S4",
+    },
+    {
+      id: 5,
+      name: "Adaptabilidad",
+      Strad: "S5",
+    },
+    {
+      id: 6,
+      name: "Creatividad",
+      Strad: "S6",
+    },
+    {
+      id: 7,
+      name: "Gestión del tiempo",
+      Strad: "S7",
+    },
+    {
+      id: 8,
+      name: "Organización",
+      Strad: "S8",
     },
   ],
   Projects: [
@@ -125,6 +225,16 @@ export const myData = {
       Image: CardCal,
       Ntrad: "N6",
       Dtrad: "D6",
-    }
+    },
+    {
+      id: 7,
+      Name: "Multilayer Perceptron",
+      Description:
+        "Implementación de un MLP en Python para reconocimiento de caracteres.",
+      Link: "https://github.com/William10101995/TPI_MLP_G3.git",
+      Image: CardMLP,
+      Ntrad: "N7",
+      Dtrad: "D7",
+    },
   ],
 };

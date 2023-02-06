@@ -30,7 +30,26 @@ export const About = () => {
               <h1> {t("about")} </h1>
               <p> {t("Description")} </p>
             </div>
-            <div className="filaabajo">
+            <div className="filaskill">
+              <div className="hardskill">
+                <h2> {t("Hard")} </h2>
+                <ul>
+                  {myData.HardSkills.map((skill) => {
+                    return <li key={skill.id}> {t(`${skill.Htrad}`)} </li>;
+                  })}
+                </ul>
+              </div>
+              <div className="softskill">
+                <h2> {t("Soft")} </h2>
+
+                <ul>
+                  {myData.SoftSkills.map((skill) => {
+                    return <li key={skill.id}> {t(`${skill.Strad}`)} </li>;
+                  })}
+                </ul>
+              </div>
+            </div>
+            {/* <div className="filaabajo">
               <h2> {t("hab")} </h2>
               {myData.Skills.map((skill) => {
                 return (
@@ -50,7 +69,7 @@ export const About = () => {
                   </div>
                 );
               })}
-            </div>
+            </div> */}
           </div>
         </div>
       </motion.div>

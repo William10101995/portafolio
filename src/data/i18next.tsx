@@ -35,7 +35,7 @@ const resources = {
       Phone: "+54 9 362-4771222",
       Email: "lopezwilliam177@gmail.com",
       Description:
-        "Information Systems Engineering student. Proactive and innovative, always knowing new technologies. Passionate about agile methodologies. Great communication and teamwork skills. My goal is to grow professionally in IT. I like spending time with friends and playing sports.",
+        "I am an advanced student of information systems engineering with leadership and effective communication skills. I have a deep understanding of Scrum and can apply effective work frameworks. My goal is to use my skills and knowledge on challenging projects to help organizations reach their goals. I am proactive, dedicated, and have a great ability to work in a team. My passion for technology and quick adaptability to change makes me an ideal candidate for any development team.",
       SocialMedia: {
         Facebook: "https://www.facebook.com/profile.php?id=100059503361624",
         Twitter: "https://twitter.com/WilliamLopezco",
@@ -77,6 +77,46 @@ const resources = {
         }`,
         },
       ],
+      Hard: "Hard Skills",
+      Soft: "Soft Skills",
+      H1: "JavaScrip",
+
+      H2: "TypeScript",
+
+      H3: "Python",
+
+      H4: "MongoDB",
+
+      H5: "MySQL",
+
+      H6: "React",
+
+      H7: "NodeJS",
+
+      H8: "Kubernetes",
+
+      H9: "Docker",
+
+      H10: "Git & GitHub",
+
+      H11: "Scrum",
+
+      S1: "Leadership",
+
+      S2: "Teamwork",
+
+      S3: "Communication",
+
+      S4: "Problem Solving",
+
+      S5: "Adaptability",
+
+      S6: "Creativity",
+
+      S7: "Time Management",
+
+      S8: "Organization",
+
       1: " Ministry REST API",
 
       N1: " Ministry REST API",
@@ -96,6 +136,8 @@ const resources = {
 
       N6: "Academic calendar",
       D6: "Project made using React. An interactive academic calendar of the university.",
+      N7: "Multilayer Perceptron",
+      D7: "Implementation of an MLP in Python for character recognition.",
 
       ViewRepo: "View Repository",
     },
@@ -132,7 +174,7 @@ const resources = {
       Phone: "+54 9 362-4771222",
       Email: "lopezwilliam177@gmail.com",
       Description:
-        "Estudiante de Ingeniería en Sistemas de Información. Proactivo e innovador, siempre conociendo nuevas tecnologías. Apasionado de las metodologías ágiles. Grandes habilidades de comunicación y trabajo en equipo. Mi objetivo es crecer profesionalmente en IT. Me gusta pasar tiempo con amigos y hacer deporte.",
+        "Soy un estudiante avanzado de ingeniería en sistemas de información con habilidades en liderazgo y comunicación efectiva. Tengo comprensión de Scrum y puedo aplicar marcos de trabajo eficaces. Mi objetivo es utilizar mis habilidades y conocimientos en proyectos desafiantes para ayudar a las organizaciones a lograr sus metas. Soy proactivo, dedicado y tengo una gran capacidad para trabajar en equipo. Mi pasión por la tecnología y habilidad de adaptación rápida a los cambios me convierten en un candidato ideal para cualquier equipo de desarrollo.",
       SocialMedia: {
         Facebook: "https://www.facebook.com/profile.php?id=100059503361624",
         Twitter: "https://twitter.com/WilliamLopezco",
@@ -174,6 +216,47 @@ const resources = {
         }`,
         },
       ],
+      Hard: "Habilidades Blandas",
+      Soft: "Habilidades Duras",
+
+      H1: "JavaScrip",
+
+      H2: "TypeScript",
+
+      H3: "Python",
+
+      H4: "MongoDB",
+
+      H5: "MySQL",
+
+      H6: "React",
+
+      H7: "NodeJS",
+
+      H8: "Kubernetes",
+
+      H9: "Docker",
+
+      H10: "Git & GitHub",
+
+      H11: "Scrum",
+
+      S1: "Liderazgo",
+
+      S2: "Trabajo en equipo",
+
+      S3: "Comunicación",
+
+      S4: "Resolución de problemas",
+
+      S5: "Adaptabilidad",
+
+      S6: "Creatividad",
+
+      S7: "Gestión del tiempo",
+
+      S8: "Organización",
+
       ViewRepo: "Ver Repositorio",
 
       N1: " Ministerio REST API",
@@ -190,6 +273,8 @@ const resources = {
 
       N6: "Calendario",
       D6: "Proyecto realizado utilizando React. Un calendario academico interactivo de la universidad.",
+      N7: "Multilayer Perceptron",
+      D7: "Implementación de un MLP en Python para reconocimiento de caracteres.",
     },
   },
 };

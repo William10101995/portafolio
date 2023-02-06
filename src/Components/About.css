@@ -43,6 +43,39 @@
   padding: 15px;
   text-align: justify;
 }
+.filaskill {
+  margin-top: 20px;
+  grid-template-columns: auto auto;
+  display: grid;
+  text-align: left;
+}
+.hardskill {
+  padding: 15px;
+}
+
+.hardskill > ul > li {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 2px;
+  text-align: left;
+}
+.hardskill > ul {
+  margin-top: 10px;
+}
+
+.softskill {
+  padding: 15px;
+}
+.softskill > ul {
+  list-style: none;
+  padding: 10px;
+}
+.softskill > ul > li {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 2px;
+  text-align: left;
+}
 
 .filaabajo {
   margin-top: 20px;
@@ -124,5 +157,17 @@
   }
   .columnaizquierda {
     padding: 20px;
+  }
+  .hardskill > ul > li {
+    font-size: 10px;
+  }
+  .softskill > ul > li {
+    font-size: 10px;
+  }
+  .hardskill > h2 {
+    font-size: 20px;
+  }
+  .softskill > h2 {
+    font-size: 20px;
   }
 }
