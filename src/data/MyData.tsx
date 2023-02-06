@@ -69,7 +69,7 @@ export const myData = {
   HardSkills: [
     {
       id: 1,
-      name: "JavaScrip",
+      name: "JavaScript",
       Htrad: "H1",
     },
     {

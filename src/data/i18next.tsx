@@ -18,7 +18,7 @@ const resources = {
       contactate: "Contact Me",
       init: "Home",
       proyec: "Projects",
-      about: "About",
+      about: "About me",
       contact: "Contact",
       hab: "Skills",
       sloganI: "Let's be realistic, let's do the impossible!",
@@ -79,7 +79,7 @@ const resources = {
       ],
       Hard: "Hard Skills",
       Soft: "Soft Skills",
-      H1: "JavaScrip",
+      H1: "JavaScript",
 
       H2: "TypeScript",
 
@@ -219,7 +219,7 @@ const resources = {
       Hard: "Habilidades Blandas",
       Soft: "Habilidades Duras",
 
-      H1: "JavaScrip",
+      H1: "JavaScript",
 
       H2: "TypeScript",
 
