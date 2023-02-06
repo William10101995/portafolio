@@ -216,8 +216,8 @@ const resources = {
         }`,
         },
       ],
-      Hard: "Habilidades Blandas",
-      Soft: "Habilidades Duras",
+      Hard: "Habilidades Duras",
+      Soft: "Habilidades Blandas",
 
       H1: "JavaScript",
 
