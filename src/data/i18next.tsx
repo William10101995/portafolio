@@ -274,7 +274,7 @@ const resources = {
       N6: "Calendario",
       D6: "Proyecto realizado utilizando React. Un calendario academico interactivo de la universidad.",
       N7: "Multilayer Perceptron",
-      D7: "Implementación de un MLP en Python para reconocimiento de caracteres.",
+      D7: "Implementación de un Multilayer Perceptron en Python para reconocimiento de caracteres.",
     },
   },
 };
